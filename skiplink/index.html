@@ -8,9 +8,20 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <script>
+      function focusContent() {
+          document.getElementById("main").focus();
+      }
+    </script>
+
     <header>
       <ul>
-        <li><a href="#">Home</a></li>
+        <li>
+          <a href="#" onclick="focusContent()"> Skip to content </a>
+        </li>
+        <li>
+          <a href="#">Home</a>
+        </li>
         <li>
           <a href="#">Screen Readers</a>
         </li>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Accessability excercise for web programming course" />
     <link rel="stylesheet" href="./styles.css" />
     <title>Navigation a11y</title>
   </head>
@@ -12,13 +13,17 @@
       <h1>Navigation & Tabs</h1>
       <div class="container">
         <form action="">
-          <p>First Name:</p>
-          <input type="text" />
-          <p>Last Name:</p>
-          <input type="text" />
+          <label for="firstName">
+            First name:
+          </label>
+          <input id="firstName" type="text"/>
+          <label for="lastName">
+            Last name:
+          </label>
+          <input id="lastName" type="text"/>
           <div onclick="printMessage()" class="button">Submit</div>
         </form>
-        <img src="../assets/images/dog.jpeg" />
+        <img src="../assets/images/dog.jpeg" alt="Just a pupper chillin'"/>
       </div>
     </main>
     <script src="./index.js"></script>
